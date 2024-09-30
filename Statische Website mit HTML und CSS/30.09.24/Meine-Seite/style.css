@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(209, 248, 212); /* Ein helles Gelb als Grundfarbe */
+    font-family: Arial, sans-serif;
+    margin: 0;
+padding: 0;
+}
+
+h1 {
+color: rgb(245, 143, 143); /* Hellblau für die Überschrift */
+text-align: center;
+}
+
+
+
+p {
+font-size: 25px;
+color: #f48383;
+text-align: left;
+font-weight: bold;
+}
+
+img {
+display: block;
+margin: 40px auto;
+width: 250px;
+border: 3px solid #ff4500; /* Rahmen um das Bild */
+border-radius: 10px;
+}
+
+div {
+background-color: #fffffffc; /* Helles Rot für den Hintergrund */
+padding: 20px;
+margin: 20px;
+border-radius: 10px;
