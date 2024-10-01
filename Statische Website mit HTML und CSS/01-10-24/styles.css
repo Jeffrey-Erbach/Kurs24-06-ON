@@ -1,0 +1,110 @@
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section */
+section {
+    padding: 20px;
+    background-color: #ECF0F1;
+    text-align: center;
+}
+
+section h2 {
+    color: blue;
+}
+
+section p {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+section img {
+    display: block;
+    margin: 40px auto;
+    width: 250px;
+}
+
+/* Div */
+.div {
+    background-color: #fffffffc; /* Helles Rot für den Hintergrund */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.div img {
+    display: block;
+    margin: 40px auto;
+    width: 250px;
+}
+
+.div h3 {
+    color: #2C3E50;
+    margin-top: 0;
+    text-align: center;
+}
+
+.div p {
+    color: #333;
+    margin-bottom: 0;
+    text-align: center
+}
+
+/* Footer */
+footer {
+    background-color:;
+    color: rgb(0, 0, 0);
+    padding: ;
+    text-align: center;
+}
+
+
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #000000;
+}
