@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Kontaktieren sie uns
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="startseite.html">Startseite</a></li>
+                <li><a href="ueber_uns.html">Über uns</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </h1>
+    </header>
+
+    <section class="Teil4">
+        <h2>
+            Kontakt
+        </h2>
+      
+        <p>Wir freuen uns, von Ihnen zu hören! Nutzen Sie das untenstehende Formular oder
+            kontaktieren Sie uns direkt per E-Mail oder Telefon.</p>
+     
+        <h2>Kontaktdaten</h2> 
+        <p>Adresse: Musterstraße 123, 12345 Musterstadt <br>
+            <br>
+            Telefon: +49 123 456789 <br>
+            <br>
+            E-Mail: info@meinewebseite.de 
+            <br>
+            Schreiben Sie uns</p>
+    
+
+    <form id="contactForm"></form>
+        <div id="error-message" class="error" style="display: none;"></div> <!-- Fehlernachricht -->
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Nachricht:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Absenden</button>
+    </form>
+
+    <script>
+        // Einfache Validierung und Fehlerbehandlung
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Verhindert das Standardverhalten des Formulars
+
+            // Hier könntest du Logik für das Versenden des Formulars hinzufügen
+            // Zum Beispiel: Fetch API, XMLHttpRequest oder ein Backend
+
+            // Validierungsbeispiel
+            let name = document.getElementById('name').value.trim();
+            let email = document.getElementById('email').value.trim();
+            let message = document.getElementById('message').value.trim();
+            let errorMessage = document.getElementById('error-message');
+
+            if (!name || !email || !message) {
+                errorMessage.innerText = 'Bitte füllen Sie alle Felder aus.';
+                errorMessage.style.display = 'block'; // Zeige die Fehlermeldung an
+            } else {
+                errorMessage.style.display = 'none'; // Verstecke die Fehlermeldung
+                // Hier kannst du das Formular absenden, z.B. an ein Backend
+                alert('Vielen Dank für Ihre Nachricht!'); // Beispiel-Aktion
+            }
+        });
+    </script>
+    </section>
+
+    <br>
+
+<footer>
+        <p>&copy;2024 Meine Webseite. Alle Rechte vorbehalten.</p>
+        <ul>
+            <li><a href="impressum.html">Impressum</a></li>
+            <li>|</li>
+            <li><a href="datenschutz.html">Datenschutz</a></li>
+        </ul>
+
+    </footer>
+    
+</body>
+</html>
