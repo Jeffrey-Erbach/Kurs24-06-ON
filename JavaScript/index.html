@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Übungen</title>
+</head>
+<body>
+    <h1>JavaScript Übungen</h1>
+
+    <script>
+        // 1. Was ist JavaScript?
+        console.log("JavaScript ist eine der Kerntechnologien des Webs.");
+        
+        // 2. JavaScript einbinden
+        console.log("JavaScript läuft!");
+
+        // 3. Variablen und Datentypen
+        let name = "Max";            // String
+        const alter = 25;           // Number
+        var istStudent = true;      // Boolean
+        console.log(name);          // Ausgabe: Max
+        console.log(alter);         // Ausgabe: 25
+        console.log(istStudent);    // Ausgabe: true
+
+        // 4. Datentypen
+        let Number = 42;                          // Number
+        let text = "Hallo, Welt!";              // String
+        let istWahr = false;                    // Boolean
+        let fruechte = ["Apfel", "Banane"];     // Array
+        let person = { name: "Max", alter: 25 }; // Object
+        console.log(Number);        // Ausgabe: 42
+        console.log(text);        // Ausgabe: Hallo, Welt!
+        console.log(istWahr);     // Ausgabe: false
+        console.log(fruechte);    // Ausgabe: [ 'Apfel', 'Banane' ]
+        console.log(person);      // Ausgabe: { name: 'Max', alter: 25 }
+
+        // 5. Operatoren
+        let a = 5;
+        let b = "5";
+        console.log(a == b);  // Ausgabe: true (Typumwandlung)
+        console.log(a === b); // Ausgabe: false (keine Typumwandlung)
+
+        // 6. Bedingungen (If-Else)
+        let punkte = 85;
+        if (punkte >= 90) {
+            console.log("Ausgezeichnet");
+        } else if (punkte >= 75) {
+            console.log("Gut gemacht");
+        } else {
+            console.log("Mehr Übung erforderlich");
+        }
+
+        // 7. Schleifen
+        console.log("For-Schleife von 1 bis 10:");
+        for (let i = 1; i <= 10; i++) {
+            console.log(i); // Ausgabe: 1 bis 10
+        }
+
+        console.log("While-Schleife von 0 bis 5:");
+        let j = 0;
+        while (j <= 5) {
+            console.log(j); // Ausgabe: 0 bis 5
+            j++;
+        }
+
+        // 8. Funktionen
+        function begruessung(name) {
+            return "Hallo, " + name + "!";
+        }
+        console.log(begruessung("Max"));  // Ausgabe: Hallo, Max!
+        console.log(begruessung("Anna"));  // Ausgabe: Hallo, Anna!
+
+        // 9. Arrays und Objekte
+        let lieblingsfruechte = ["Äpfel", "Bananen", "Kirschen"];
+        console.log(lieblingsfruechte[0]); // Ausgabe: Äpfel
+
+        let personInfo = {
+            name: "Max",
+            alter: 25,
+            beruf: "Entwickler"
+        };
+        console.log(personInfo.name); // Ausgabe: Max
+
+        // 10. Konsolenausgabe
+        let zahl = 12;
+        if (zahl > 10) {
+            console.log("Die Zahl ist größer als 10!");
+        }
+    </script>
+</body>
+</html>
