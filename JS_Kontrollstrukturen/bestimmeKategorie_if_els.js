@@ -21,5 +21,5 @@ function bestimmeKategorie(alter) {
   bestimmeKategorie(10);  // Kind
   bestimmeKategorie(15);  // Jugendlicher
   bestimmeKategorie(30);  // Erwachsener
-  bestimmeKategorie(70);  // Senior
+  bestimmeKategorie(70);  // Senior 
   

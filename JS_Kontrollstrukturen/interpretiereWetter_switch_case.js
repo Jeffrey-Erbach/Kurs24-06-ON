@@ -29,5 +29,5 @@ function interpretiereWetter(wetterlage) {
   interpretiereWetter("Regnerisch");  // Bleibe zu Hause und lese ein Buch
   interpretiereWetter("Schnee");      // Baue einen Schneemann
   interpretiereWetter("Windig");      // Fliege einen Drachen
-  interpretiereWetter("Nebelig");     // Unbekannte Wetterlage
+  interpretiereWetter("Nebelig");     // Unbekannte Wetterlage 
   
