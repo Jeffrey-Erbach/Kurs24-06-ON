@@ -13,7 +13,7 @@ function digitSum(number) {
     do {
         // Ermittlt die letzte Ziffer der aktuellen Zahl
         let lastDigit = currentNumber % 10; 
-        // Addiert die letzte Ziffer zur Summe
+        // Addiert die letzte Ziffer zur Summe 
         sum += lastDigit; 
         // Entfernt die letzte Ziffer von der aktuellen Zahl
         currentNumber = Math.floor(currentNumber / 10); 

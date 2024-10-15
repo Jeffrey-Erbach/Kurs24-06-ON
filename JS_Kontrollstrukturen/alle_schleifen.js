@@ -19,7 +19,7 @@ function countGreaterThanThreshold(array, threshold) {
         if (array[j] > threshold) { // Überprüfen, ob das Element größer ist als der Schwellenwert
             count++; // Erhöhe den Zähler
         }
-        j++; // Erhöhe den Index
+        j++; // Erhöhe den Index 
     }
     console.log("Anzahl der Elemente größer als " + threshold + " (While-Schleife): " + count);
 

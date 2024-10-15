@@ -15,7 +15,7 @@ function sumEvenNumbersDoWhile() {
         i++; 
     } while (i <= 100); // Die Schleife läuft, solange i kleiner oder gleich 100 ist
 
-    // Gibt die berechnete Summe zurück
+    // Gibt die berechnete Summe zurück 
     return sum; 
 }
 
