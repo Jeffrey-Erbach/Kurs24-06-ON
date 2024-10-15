@@ -11,7 +11,7 @@ function digitSum(number) {
 
     // Hier beginnt die do-while-Schleife
     do {
-        // Ermittlt die letzte Ziffer der aktuellen Zahl
+        // Ermittlt die letzte Ziffer der aktuellen Zahl 
         let lastDigit = currentNumber % 10; 
         // Addiert die letzte Ziffer zur Summe 
         sum += lastDigit; 

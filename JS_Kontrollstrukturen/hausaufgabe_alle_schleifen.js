@@ -14,7 +14,7 @@ function countGreaterThanThreshold(array, threshold) {
     count = 0; 
 
     // Implementierung mit einer While-Schleife
-    let j = 0; // Initialisiere Zählvariable für die While-Schleife
+    let j = 0; // Initialisiere Zählvariable für die While-Schleife 
     while (j < array.length) {
         if (array[j] > threshold) { // Überprüfen, ob das Element größer ist als der Schwellenwert
             count++; // Erhöhe den Zähler

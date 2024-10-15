@@ -19,7 +19,7 @@ function sumEvenNumbersDoWhile() {
     return sum; 
 }
 
-// Ruft die Funktion auf und speichert das Ergebnis in einer Variablen
+// Ruft die Funktion auf und speichert das Ergebnis in einer Variablen 
 const ergebnisDoWhile = sumEvenNumbersDoWhile();
 // Gibt die Summe der geraden Zahlen in der Konsole aus
 console.log("Summe der geraden Zahlen: " + ergebnisDoWhile);
