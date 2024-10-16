@@ -14,3 +14,4 @@ function sumEvenNumbersWhile() {
 
 const ergebnisWhile = sumEvenNumbersWhile();
 console.log("Summe der geraden Zahlen: " + ergebnisWhile);
+
