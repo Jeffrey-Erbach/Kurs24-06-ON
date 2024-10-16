@@ -1,9 +1,5 @@
 function digitSum(number) {
-    // Stellt sicher, dass die Eingabe eine positive ganze Zahl ist
-    if (number < 0) {
-        return "Bitte geben Sie eine positive ganze Zahl ein."; // Fehlermeldung für negative Zahlen
-    }
-
+   
     // Initialisiert die Variable für die Ziffernsumme
     let sum = 0; 
     // Verwendet eine Variable, um die aktuelle Zahl zu speichern
