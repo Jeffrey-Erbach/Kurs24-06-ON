@@ -47,29 +47,29 @@ console.log(zahlenArray);
 console.log(leeresArray);
 
 
- // Splice kann Elemente in einem Array entfernen.
- // Es muss immer Start- und Endwert angegeben werden.
- // namen.splice(2);
- // console.log(namen);
+// Splice kann Elemente in einem Array entfernen.
+// Es muss immer Start- und Endwert angegeben werden.
+// namen.splice(2);
+// console.log(namen);
 
 
- // Unshift fügt Elemente an den Anfang eines Arrays hinzu.
- namen.unshift("alper", "stefan", "patrick");
- console.log(namen);
+// Unshift fügt Elemente an den Anfang eines Arrays hinzu.
+namen.unshift("alper", "stefan", "patrick");
+console.log(namen);
 
  // Shift
  namen.shift("patrick");
  console.log(namen);
 
- // CALLBACKS
- // Soll die Elemente eines Arrays einzeln ausgeben.
- namen.forEach(namen => {
+// CALLBACKS
+// Soll die Elemente eines Arrays einzeln ausgeben.
+namen.forEach(namen => {
     console.log(namen);
 
  });
 
- // Manipulation
- let slicedNamen = namen.slice(2,5);
+// Manipulation
+let slicedNamen = namen.slice(2,5);
  console.log(slicedNamen);
 
 
