@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabe 6</title>
+</head>
+<body>
+    <div class="box" style="width: 100px; height: 100px; background-color: grey;"></div>
+
+    <script>
+        const box = document.querySelector(".box");
+
+        box.addEventListener("mouseover", function() {
+            box.style.backgroundColor = "red";
+        });
+
+        box.addEventListener("mouseout", function() {
+            box.style.backgroundColor = "grey";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabe 2</title>
+</head>
+<body>
+    <button id="color-button">Ändere Farbe</button>
+
+    <script>
+        document.getElementById("color-button").addEventListener("click", function() {
+            const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+            this.style.backgroundColor = randomColor;
+        });
+    </script>
+</body>
+</html>

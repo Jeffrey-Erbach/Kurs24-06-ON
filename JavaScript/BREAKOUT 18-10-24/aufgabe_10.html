@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabe 10</title>
+</head>
+<body>
+    <input type="number" id="guess-input" min="1" max="10">
+    <button id="check-button">Überprüfen</button>
+    <p id="result"></p>
+
+    <script>
+        document.getElementById("check-button").addEventListener("click", function() {
+            const userGuess = parseInt(document.getElementById("guess-input").value);
+            const randomNumber = Math.floor(Math.random() * 10) + 1;
+
+            const result = document.getElementById("result");
+
+            if (userGuess === randomNumber) {
+                result.textContent = "Richtig geraten!";
+            } else {
+                result.textContent = `Falsch! Die richtige Zahl war ${randomNumber}.`;
+            }
+        });
+    </script>
+</body>
+</html>

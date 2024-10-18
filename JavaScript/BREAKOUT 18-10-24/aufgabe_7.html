@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabe 7</title>
+</head>
+<body>
+    <input type="text" id="input-field">
+    <button id="submit-button">Absenden</button>
+
+    <script>
+        document.getElementById("submit-button").addEventListener("click", function() {
+            const inputValue = document.getElementById("input-field").value;
+            const newParagraph = document.createElement("p");
+            newParagraph.textContent = inputValue;
+            this.parentNode.appendChild(newParagraph);
+        });
+    </script>
+</body>
+</html>

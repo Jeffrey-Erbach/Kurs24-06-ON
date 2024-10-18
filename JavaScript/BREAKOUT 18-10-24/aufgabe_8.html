@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabe 8</title>
+</head>
+<body>
+    <div class="box" style="width: 100px; height: 100px; background-color: grey;"></div>
+    <div class="box" style="width: 100px; height: 100px; background-color: grey;"></div>
+    <div class="box" style="width: 100px; height: 100px; background-color: grey;"></div>
+
+    <script>
+        const boxes = document.getElementsByClassName("box");
+
+        for (let i = 0; i < boxes.length; i++) {
+            boxes[i].addEventListener("click", function() {
+                for (let j = 0; j < boxes.length; j++) {
+                    boxes[j].style.backgroundColor = "blue";
+                }
+            });
+        }
+    </script>
+</body>
+</html>

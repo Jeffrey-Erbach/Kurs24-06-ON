@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabe 5</title>
+</head>
+<body>
+    <button id="click-button">Klick mich</button>
+
+    <script>
+        document.getElementById("click-button").addEventListener("click", function() {
+            const newParagraph = document.createElement("p");
+            newParagraph.textContent = "Button wurde geklickt!";
+            this.parentNode.appendChild(newParagraph);
+        });
+    </script>
+</body>
+</html>
