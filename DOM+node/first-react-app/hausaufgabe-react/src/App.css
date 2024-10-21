@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Stil für die Hauptüberschrift (H1) */
+h1 {
+  color: blue;          /* Textfarbe blau */
+  text-align: center;   /* Zentriert den Text */
+  font-size: 2.5em;     /* Schriftgröße */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Stil für die Begrüßungsüberschrift (H2) */
+h2 {
+  color: green;        /* Textfarbe grün */
+  text-align: center;  /* Zentriert den Text */
+  font-size: 2em;      /* Schriftgröße */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Stil für die Berechnungsüberschrift (H3) */
+h3 {
+  color: purple;       /* Textfarbe lila */
+  text-align: center;  /* Zentriert den Text */
+  font-size: 1.5em;    /* Schriftgröße */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Stil für den Button */
+button {
+  display: block;                  /* Button als Blockelement */
+  margin: 20px auto;              /* Zentriert den Button */
+  padding: 10px 20px;             /* Innenabstand */
+  background-color: lightgray;    /* Hintergrundfarbe hellgrau */
+  color: black;                   /* Textfarbe schwarz */
+  border: none;                   /* Keine Rahmen */
+  border-radius: 5px;            /* Abgerundete Ecken */
+  cursor: pointer;                /* Zeigt den Zeiger an, wenn darüber gehobt wird */
+  font-size: 1.2em;               /* Schriftgröße */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Stil für Button Hover-Effekt */
+button:hover {
+  background-color: gray;         /* Hintergrundfarbe grau beim Hover */
 }
