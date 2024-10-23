@@ -1,0 +1,29 @@
+.custom-text-field {
+    margin: 10px 0;
+  }
+  
+  .custom-text-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #333; /* Dunkelgraue Farbe für das Label */
+  }
+  
+  .custom-text-field input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc; /* Heller Rahmen */
+    width: 100%; /* Vollständige Breite */
+    box-sizing: border-box; /* Inklusive Padding und Rahmen in der Breite */
+    font-size: 1em; /* Schriftgröße */
+  }
+  
+  .custom-text-field input:focus {
+    border-color: #66afe9; /* Rahmenfarbe bei Fokus */
+    outline: none; /* Entfernt den Standard-Outline */
+  }
+  
+  .custom-text-field input::placeholder {
+    color: #aaa; /* Helle Farbe für Platzhalter */
+  }
+  
