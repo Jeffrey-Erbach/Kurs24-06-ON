@@ -1,0 +1,15 @@
+.fight-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #dc3545; /* Roter Hintergrund */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fight-button:hover {
+  background-color: #c82333; /* Etwas dunklerer Rotton */
+}

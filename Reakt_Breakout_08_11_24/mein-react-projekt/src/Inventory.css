@@ -1,0 +1,95 @@
+/* Grundlegendes Styling für die gesamte Anwendung */
+body {
+    font-family: 'Georgia', serif; /* Eine mittelalterliche Schriftart */
+    background-color: #2a2a2a; /* Dunkelgrauer Hintergrund */
+    color: #e5e5e5; /* Helles Grau für den Text */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling des Containers der Anwendung */
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #b58c60; /* Goldton für die Überschrift */
+    margin-top: 20px;
+  }
+  
+  /* Inventarbereich Styling */
+  h2 {
+    font-size: 28px;
+    color: #d1cfc0; /* Helles Grau für Hauptüberschrift */
+    text-align: center;
+    border-bottom: 2px solid #b58c60; /* Goldfarbener Rahmen unten */
+    padding-bottom: 10px;
+  }
+  
+  /* Die Hauptanzeige des Inventars */
+  div {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #3e3e3e; /* Dunkelgrauer Hintergrund für das Inventar */
+    width: 80%;
+    border-radius: 10px;
+    border: 3px solid #b58c60; /* Goldfarbener Rahmen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Die kleinen Überschriften im Inventar */
+  h3 {
+    font-size: 22px;
+    color: #e5e5e5;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling der Items im Inventar */
+  p {
+    font-size: 18px;
+    color: #e5e5e5;
+    margin: 5px 0;
+  }
+  
+  /* Buttons im Mittelalterstil */
+  button {
+    background-color: #4e4e4e;
+    color: #d1cfc0;
+    border: 2px solid #b58c60; /* Goldfarbener Rand */
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Georgia', serif;
+  }
+  
+  /* Hover-Effekte für die Buttons */
+  button:hover {
+    background-color: #b58c60;
+    color: #2a2a2a;
+  }
+  
+  /* Stil für den Button, der verwendet wird, um den Heiltrank zu verwenden */
+  button:active {
+    background-color: #b58c60;
+    color: #2a2a2a;
+  }
+  
+  /* Stil für den Bereich, in dem Items gekauft werden */
+  button:focus {
+    outline: none;
+  }
+  
+  /* Stil für das Layout von Items im Inventar */
+  div > div {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 2px solid #b58c60;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  

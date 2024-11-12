@@ -1,0 +1,55 @@
+.shop {
+    border: 2px solid #4b0082;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px; /* Breitere Darstellung für mehr Platz */
+    margin: 20px auto;
+    background-color: #f8f4ff;
+  }
+  
+  .shop h2, .shop h3 {
+    color: #4b0082;
+    text-align: center;
+  }
+  
+  .shop ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .shop li {
+    font-size: 1.1rem;
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #d1c4e9;
+    border-radius: 5px;
+    background-color: #e8eaf6;
+  }
+  
+  .shop button {
+    padding: 7px 15px;
+    font-size: 1rem;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop button:hover {
+    background-color: #6a0dad;
+  }
+  
+  .buy-button {
+    background-color: #28a745;
+    margin-left: 10px;
+  }
+  
+  .buy-button:hover {
+    background-color: #218838;
+  }
+  

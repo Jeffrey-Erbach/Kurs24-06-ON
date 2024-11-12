@@ -1,0 +1,94 @@
+/* Grundstil für die gesamte Seite */
+body {
+  font-family: 'Georgia', serif; /* Mittelalterlicher Stil */
+  background-color: #f4f1e1; /* Helles Beige (Geige) */
+  color: #333; /* Dunkles Grau für Text */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Stil für den äußeren Container */
+.container {
+  text-align: center;
+  background-color: #f4f1e1; /* Helles Beige (Geige) */
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px solid #d8c7a9; /* Sandfarbener Rand */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Überschrift der Seite */
+h1 {
+  color: #3e3e3e; /* Dunkles Grau für Überschrift */
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Bereich für die Anzeige der Items */
+.item-list {
+  margin-top: 30px;
+  background-color: #e1d9c1; /* Hellgrau-Beige für Hintergrund */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Stil für die einzelnen Items in der Liste */
+.item {
+  background-color: #f4f1e1; /* Helles Beige */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #d8c7a9; /* Sandfarbener Rand */
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Button-Stil */
+button {
+  background-color: #d8c7a9; /* Sandfarbener Button */
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+button:hover {
+  background-color: #bca28d; /* Etwas dunklerer Sandton für Hover-Effekt */
+}
+
+/* Stil für den Kampfbereich */
+.combat {
+  margin-top: 40px;
+  background-color: #e1d9c1; /* Hellgrau-Beige für Hintergrund */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Kampfbeschreibung und Button */
+.combat button {
+  background-color: #d8c7a9;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.combat button:hover {
+  background-color: #bca28d;
+}
+
+/* Allgemeiner Stil für den Text */
+p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
