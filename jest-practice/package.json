@@ -1,15 +1,17 @@
 {
-  "name": "kurs24-06-on",
+  "name": "jest-practice",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "wald.js",
   "scripts": {
-"test": "jest"
-},
+    "test": "jest"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "express": "^4.21.1",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
   }
 }
