@@ -1,0 +1,294 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-11T10:50:48.721Z",
+    "end": "2024-12-11T10:51:51.856Z",
+    "duration": 63135,
+    "testsRegistered": 5,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 4,
+    "hasOther": true,
+    "skipped": 5,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "4ff3d9e7-2053-4d54-82a8-3a8bf4a40656",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0576ad7c-d2f4-456c-aa94-6f6ce8ac41b0",
+          "title": "E2E Test für Demo Page",
+          "fullFile": "C:\\Users\\erbac\\Documents\\Kurs 24-06-ON\\Kurs24-06-ON\\Selenium\\selenium-e2e-tests\\tests\\demoPage.test.js",
+          "file": "\\tests\\demoPage.test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook for \"Aufgabe 1: Hauptüberschrift finden\"",
+              "fullTitle": "E2E Test für Demo Page \"before all\" hook for \"Aufgabe 1: Hauptüberschrift finden\"",
+              "timedOut": true,
+              "duration": 32425,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "driver = await new Builder().forBrowser(\"chrome\").build();\ndemoPage = new DemoPage(driver);\nawait demoPage.open();",
+              "err": {
+                "message": "Error: Timeout of 30000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\erbac\\Documents\\Kurs 24-06-ON\\Kurs24-06-ON\\Selenium\\selenium-e2e-tests\\tests\\demoPage.test.js)",
+                "estack": "Error: Timeout of 30000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\erbac\\Documents\\Kurs 24-06-ON\\Kurs24-06-ON\\Selenium\\selenium-e2e-tests\\tests\\demoPage.test.js)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)",
+                "diff": null
+              },
+              "uuid": "67f6e2db-8381-4774-8ad2-2d8d4747bc50",
+              "parentUUID": "0576ad7c-d2f4-456c-aa94-6f6ce8ac41b0",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook for \"Aufgabe 2: Formular mit ungültigen Daten testen\"",
+              "fullTitle": "E2E Test für Demo Page \"after all\" hook for \"Aufgabe 2: Formular mit ungültigen Daten testen\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "await driver.quit();",
+              "err": {
+                "message": "TypeError: Cannot read properties of undefined (reading 'quit')",
+                "estack": "TypeError: Cannot read properties of undefined (reading 'quit')\n    at Context.<anonymous> (tests\\demoPage.test.js:20:22)\n    at process.processImmediate (node:internal/timers:491:21)",
+                "diff": null
+              },
+              "uuid": "19902fd6-db8b-4346-bd88-bccbbeef76a4",
+              "parentUUID": "0576ad7c-d2f4-456c-aa94-6f6ce8ac41b0",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Aufgabe 1: Hauptüberschrift finden",
+              "fullTitle": "E2E Test für Demo Page Aufgabe 1: Hauptüberschrift finden",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const headerText = await demoPage.getHeaderText();\nassert.strictEqual(headerText, \"Demo Page\", \"Hauptüberschrift stimmt nicht überein.\");",
+              "err": {},
+              "uuid": "c3b3a11e-7b06-4ba6-92cf-aa9bd2db5d94",
+              "parentUUID": "0576ad7c-d2f4-456c-aa94-6f6ce8ac41b0",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Aufgabe 2: Formular mit ungültigen Daten testen",
+              "fullTitle": "E2E Test für Demo Page Aufgabe 2: Formular mit ungültigen Daten testen",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await demoPage.fillForm('', 'invalid-email');\nconst errorMessage = await demoPage.getFormError();\nassert.strictEqual(errorMessage, \"Please enter a valid email address.\", \"Fehlermeldung stimmt nicht überein.\");",
+              "err": {},
+              "uuid": "77b77471-ef41-483c-8e5f-c2528da9baad",
+              "parentUUID": "0576ad7c-d2f4-456c-aa94-6f6ce8ac41b0",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [
+            "c3b3a11e-7b06-4ba6-92cf-aa9bd2db5d94",
+            "77b77471-ef41-483c-8e5f-c2528da9baad"
+          ],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 30000
+        },
+        {
+          "uuid": "869da4b8-f725-49a0-a8ed-9219f784cc3c",
+          "title": "Formularvalidierung auf der Demo Page",
+          "fullFile": "C:\\Users\\erbac\\Documents\\Kurs 24-06-ON\\Kurs24-06-ON\\Selenium\\selenium-e2e-tests\\tests\\formValidation.test.js",
+          "file": "\\tests\\formValidation.test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook for \"Sollte Fehlermeldung bei leeren Feldern anzeigen\"",
+              "fullTitle": "Formularvalidierung auf der Demo Page \"before all\" hook for \"Sollte Fehlermeldung bei leeren Feldern anzeigen\"",
+              "timedOut": true,
+              "duration": 30688,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "driver = await new Builder().forBrowser(\"chrome\").build();\ndemoPage = new DemoPage(driver);\nawait demoPage.open();",
+              "err": {
+                "message": "Error: Timeout of 30000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\erbac\\Documents\\Kurs 24-06-ON\\Kurs24-06-ON\\Selenium\\selenium-e2e-tests\\tests\\formValidation.test.js)",
+                "estack": "Error: Timeout of 30000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\erbac\\Documents\\Kurs 24-06-ON\\Kurs24-06-ON\\Selenium\\selenium-e2e-tests\\tests\\formValidation.test.js)\n    at listOnTimeout (node:internal/timers:594:17)\n    at process.processTimers (node:internal/timers:529:7)",
+                "diff": null
+              },
+              "uuid": "9fada1d9-b8bd-4a0d-870b-2043cf231579",
+              "parentUUID": "869da4b8-f725-49a0-a8ed-9219f784cc3c",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook for \"Sollte erfolgreich absenden mit gültigen Daten\"",
+              "fullTitle": "Formularvalidierung auf der Demo Page \"after all\" hook for \"Sollte erfolgreich absenden mit gültigen Daten\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "await driver.quit();",
+              "err": {
+                "message": "TypeError: Cannot read properties of undefined (reading 'quit')",
+                "estack": "TypeError: Cannot read properties of undefined (reading 'quit')\n    at Context.<anonymous> (tests\\formValidation.test.js:19:22)\n    at process.processImmediate (node:internal/timers:491:21)",
+                "diff": null
+              },
+              "uuid": "bd162dcc-07bd-4d4f-8520-a31cb95ab2c9",
+              "parentUUID": "869da4b8-f725-49a0-a8ed-9219f784cc3c",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Sollte Fehlermeldung bei leeren Feldern anzeigen",
+              "fullTitle": "Formularvalidierung auf der Demo Page Sollte Fehlermeldung bei leeren Feldern anzeigen",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await demoPage.fillForm('', '');\nconst errorMessage = await demoPage.getFormError();\nassert.strictEqual(errorMessage, \"All fields are required.\", \"Fehlermeldung für leere Felder stimmt nicht überein.\");",
+              "err": {},
+              "uuid": "1dc41920-fb2b-44e4-8f4e-a5f5d60dbd36",
+              "parentUUID": "869da4b8-f725-49a0-a8ed-9219f784cc3c",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Sollte Fehlermeldung bei ungültiger E-Mail anzeigen",
+              "fullTitle": "Formularvalidierung auf der Demo Page Sollte Fehlermeldung bei ungültiger E-Mail anzeigen",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await demoPage.fillForm('John Doe', 'john.doe@invalid');\nconst errorMessage = await demoPage.getFormError();\nassert.strictEqual(errorMessage, \"Please enter a valid email address.\", \"Fehlermeldung für ungültige E-Mail stimmt nicht überein.\");",
+              "err": {},
+              "uuid": "cf042884-2425-46c2-852b-cbcf52c591e6",
+              "parentUUID": "869da4b8-f725-49a0-a8ed-9219f784cc3c",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Sollte erfolgreich absenden mit gültigen Daten",
+              "fullTitle": "Formularvalidierung auf der Demo Page Sollte erfolgreich absenden mit gültigen Daten",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await demoPage.fillForm('John Doe', 'john.doe@example.com');\n// Angenommen, eine Erfolgsmeldung wird angezeigt\nconst successMessage = await driver.findElement(By.id('successMessage')).getText();\nassert.strictEqual(successMessage, \"Form submitted successfully!\", \"Erfolgsmeldung stimmt nicht überein.\");",
+              "err": {},
+              "uuid": "b956a4a6-4e6d-4214-9569-32787bc88a16",
+              "parentUUID": "869da4b8-f725-49a0-a8ed-9219f784cc3c",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [
+            "1dc41920-fb2b-44e4-8f4e-a5f5d60dbd36",
+            "cf042884-2425-46c2-852b-cbcf52c591e6",
+            "b956a4a6-4e6d-4214-9569-32787bc88a16"
+          ],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 30000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "11.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "reports",
+        "reportFilename": "report",
+        "overwrite": "false",
+        "html": "true",
+        "json": "true"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

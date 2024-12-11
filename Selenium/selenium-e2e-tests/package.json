@@ -1,0 +1,19 @@
+{
+  "name": "selenium-e2e-tests",
+  "version": "1.0.0",
+  "description": "E2E-Tests mit Selenium, Mocha und ChromeDriver",
+  "type": "module",
+  "scripts": {
+    "test": "mocha tests/*.test.js --reporter mochawesome --reporter-options reportDir=reports,reportFilename=report,overwrite=false,html=true,json=true"
+  },
+  "author": "Dein Name",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chromedriver": "^112.0.0",
+    "geckodriver": "^4.0.0",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.11.0"
+  }
+}

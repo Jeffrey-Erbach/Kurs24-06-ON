@@ -1,0 +1,16 @@
+{
+  "name": "selenium-mocha-tests",
+  "version": "1.0.0",
+  "description": "Selenium und Mocha Test Suite",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "devDependencies": {
+    "chromedriver": "^113.0.0", 
+    "mocha": "^10.0.0",
+    "selenium-webdriver": "^4.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
