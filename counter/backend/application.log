@@ -1,0 +1,12 @@
+2025-01-07 14:05:21 [INFO]: Inkrementiere Zähler
+2025-01-07 14:05:21 [INFO]: Neuer Zählerwert: 10
+2025-01-07 14:05:25 [INFO]: Inkrementiere Zähler
+2025-01-07 14:05:25 [INFO]: Neuer Zählerwert: 11
+2025-01-07 14:05:31 [INFO]: Versuche, Zähler zu dekrementieren
+2025-01-07 14:05:31 [WARN]: Neuer Zählerwert: 10
+2025-01-07 14:05:31 [INFO]: Aktueller Zählerwert: 11
+2025-01-07 14:05:36 [INFO]: Versuche, Zähler zu dekrementieren
+2025-01-07 14:05:36 [INFO]: Aktueller Zählerwert: 10
+2025-01-07 14:05:36 [WARN]: Neuer Zählerwert: 9
+2025-01-07 14:05:38 [INFO]: Inkrementiere Zähler
+2025-01-07 14:05:38 [INFO]: Neuer Zählerwert: 10
