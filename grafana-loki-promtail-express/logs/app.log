@@ -1,0 +1,17 @@
+2025-01-09 06:09:31 [info]: Server läuft auf 5001
+2025-01-09 06:09:48 [info]: Wurzel Route aufgerufen
+2025-01-09 06:10:04 [info]: Hallo Welt Route aufgerufen
+2025-01-09 06:10:10 [info]: Bye Route aufgerufen
+2025-01-09 06:40:00 [info]: Wurzel Route aufgerufen
+2025-01-09 06:40:02 [info]: Wurzel Route aufgerufen
+2025-01-09 06:40:03 [info]: Wurzel Route aufgerufen
+2025-01-09 06:40:08 [info]: Hallo Welt Route aufgerufen
+2025-01-09 07:10:47 [info]: Hallo Welt Route aufgerufen
+2025-01-09 07:10:50 [info]: Wurzel Route aufgerufen
+2025-01-09 07:10:52 [info]: Hallo Welt Route aufgerufen
+2025-01-10 11:10:50 [info]: Server läuft auf 5001
+2025-01-10 11:11:55 [info]: Hallo Welt Route aufgerufen
+2025-01-10 13:41:40 [info]: Server läuft auf 5001
+2025-01-10 13:41:48 [error]: Endpoint /error called - 404 Not Found
+2025-01-10 13:47:48 [error]: Endpoint /error called - 404 Not Found
+2025-01-10 13:48:48 [error]: Endpoint /error called - 404 Not Found
